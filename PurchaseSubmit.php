@@ -12,9 +12,7 @@
 
 <body>
   <main>
-    <h1>
       <p>Will get an email with a response from (Email).</p>
-    </h1>
     <p><?php
 echo 'Wine: ' . $_POST ["Wine"] . '<br>';
 echo 'Whiskey: ' . $_POST ["Whiskey"] . '<br>';
