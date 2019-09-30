@@ -7,6 +7,7 @@
   <meta name="keywords" content="Purchasing Candles Submit">
   <meta name="author" content="James Wells">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
   <title>Alchohol Bottle Candles</title>
 </head>
 
