@@ -10,6 +10,8 @@ ol {
 
 .type {
   margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .size {
@@ -20,4 +22,32 @@ ol {
   margin-left: 100px;
   background-color: black;
   padding: 10px 10px 10px 10px;
+}
+
+.Bot1 {
+  background-color: #DC143C;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Bot2 {
+  background-color: #FFBD2E;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Bot3 {
+  background-color: #FDA50F;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Bot4 {
+  background-color: #008AE6;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
