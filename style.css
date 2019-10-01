@@ -1,0 +1,23 @@
+body {}
+
+ol {
+  margin-left: 100px;
+}
+
+.have {
+  margin-left: 100px;
+}
+
+.type {
+  margin-left: 100px;
+}
+
+.size {
+  margin-left: 100px;
+}
+
+.submit {
+  margin-left: 100px;
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+}
