@@ -22,6 +22,9 @@ echo 'Whiskey: ' . $_POST ["Whiskey"] . '<br>';
   </main>
   <footer>
     <p>Back to <a href="Index-page.html">Home</a> page</p>
+    <p>Back to<a href="Purchase-Page.html">Purchase</a> page</p>
+    <p>Back to<a href="About-Page.html">About</a> page</p>
+    <p>Back to<a href="Help-Page.html">Help</a> page</p>
     <p>Created by James Wells &copy; 2019</p>
   </footer>
 </body>
