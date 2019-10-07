@@ -8,6 +8,71 @@ p {
   margin-left: 12.5%;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+nav li a:hover:not(.clicked) {
+  background-color: #ddd;
+}
+
+nav li a:hover:not(.onpage) {
+  background-color: #ddd;
+}
+
+nav li a:hover:not(.onscreen) {
+  background-color: #ddd;
+}
+
+nav li a.active {
+  color: #000000;
+  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+}
+
+nav li a.clicked {
+  color: #000000;
+  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+}
+
+nav li a.onpage {
+  color: #000000;
+  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+}
+
+nav li a.onscreen {
+  color: #000000;
+  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+}
+
+footer h2 {
+  margin-left: 15%
+}
+
+.helpsub {
+  margin-left: 10%
+}
+
 .have {
   margin-left: 10%;
 }
