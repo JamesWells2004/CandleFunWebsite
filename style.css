@@ -13,12 +13,16 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
+  border: .5px solid #e7e7e7;
   background-color: #f3f3f3;
+  width: 6%;
+  min-width: 100px;
+  max-width: 150px
 }
 
 nav li {
   float: left;
+  width: 100%;
 }
 
 nav li a {
@@ -29,56 +33,29 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover:not(.active) {
+nav li a:hover:not {
   background-color: #ddd;
 }
 
-nav li a:hover:not(.clicked) {
-  background-color: #ddd;
-}
-
-nav li a:hover:not(.onpage) {
-  background-color: #ddd;
-}
-
-nav li a:hover:not(.onscreen) {
-  background-color: #ddd;
-}
-
-nav li a:hover(.active) {
+nav li a:hover {
   background-color: #008AE6;
-}
-
-nav li a:hover(.clicked) {
-  background-color: #FFBD2E;
-}
-
-nav li a:hover(.onpage) {
-  background-color: #FFBD2E;
-}
-
-nav li a:hover(.onscreen) {
-  background-color: #DC143C;
 }
 
 nav li a.active {
   color: #000000;
-  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+  background-image: radial-gradient(circle at bottom center, #008AE6, #FFBD2E, #DC143C);
 }
 
-nav li a.clicked {
-  color: #000000;
-  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+nav li a:hover.onscreen {
+  background-color: #DC143C;
 }
 
-nav li a.onpage {
-  color: #000000;
-  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+nav li a:hover.onpage {
+  background-color: #FFBD2E;
 }
 
-nav li a.onscreen {
-  color: #000000;
-  background-image: radial-gradient(circle at top center, #008AE6, #FFBD2E, #DC143C);
+nav li a:hover.last {
+  background-color: #008AE6;
 }
 
 footer h2 {
@@ -148,4 +125,8 @@ footer h2 {
   background-color: #DC143C;
   border-width: 10px;
   border-radius: 5px
+}
+
+.hidden {
+  display: none;
 }
