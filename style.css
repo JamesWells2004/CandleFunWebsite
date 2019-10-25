@@ -1,5 +1,6 @@
 @import url: ('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 @import url: ('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url: ('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 body {}
 
@@ -99,16 +100,16 @@ footer h2 {
   margin-left: 13%;
 }
 
-.aboutsizestyle {}
+.aboutsizestyle {
+  font-family: 'Orbitron', sans-serif;
+}
 
 .pfontstuff {
   font-family: 'Indie Flower', cursive;
-  font-size:
 }
 
 .p2fontstuff {
   font-family: 'Caveat', cursive;
-  font-size:
 }
 
 .submit {
