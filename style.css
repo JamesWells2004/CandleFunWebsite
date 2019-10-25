@@ -1,3 +1,6 @@
+@import url: ('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url: ('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
 body {}
 
 h1 {
@@ -94,6 +97,18 @@ footer h2 {
 
 .h3-1 {
   margin-left: 13%;
+}
+
+.aboutsizestyle {}
+
+.pfontstuff {
+  font-family: 'Indie Flower', cursive;
+  font-size:
+}
+
+.p2fontstuff {
+  font-family: 'Caveat', cursive;
+  font-size:
 }
 
 .submit {
