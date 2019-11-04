@@ -14,11 +14,6 @@
 <body>
   <main>
       <p>Will get an email with a response from (Email).</p>
-    <p><?php
-echo 'Wine: ' . $_POST ["Wine"] . '<br>';
-echo 'Whiskey: ' . $_POST ["Whiskey"] . '<br>';
-
-?></p>
   </main>
   <footer>
     <p>Back to <a href="Index-page.html">Home</a> page</p>

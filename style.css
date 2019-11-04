@@ -152,6 +152,7 @@ footer h2 {
   max-width: 300px;
   font-size: 1.2em;
   grid-template-columns: 1fr;
+  border-color: rgb(20, 117, 166);
 }
 
 .aH2 {
