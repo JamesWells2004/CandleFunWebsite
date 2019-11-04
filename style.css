@@ -146,3 +146,14 @@ footer h2 {
 .hidden {
   display: none;
 }
+
+.border {
+  border-style: inset;
+  max-width: 300px;
+  font-size: 1.2em;
+  grid-template-columns: 1fr;
+}
+
+.aH2 {
+  text-decoration: underline;
+}
