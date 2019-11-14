@@ -158,3 +158,116 @@ footer h2 {
 .aH2 {
   text-decoration: underline;
 }
+
+.picturemain {
+  width: 100vw;
+  height: 200vh;
+}
+
+.aboutme {
+  width: 100%;
+  height: 80%;
+  grid-template-rows: 25% 25% 25%;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.my-family1 {
+  width: 100%;
+  height: 20%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-areas:
+    " 1 2 3 ";
+}
+
+.my-family2 {
+  width: 100vw;
+  height: 20vw;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 25% 1fr 25% 1fr;
+  grid-template-areas:
+    "hiddengrid 4 hiddengrid 5 hiddengrid";
+}
+
+.spot1 {
+  grid-area: 1;
+}
+
+.spot2 {
+  grid-area: 2;
+}
+
+.spot3 {
+  grid-area: 3;
+}
+
+.spot4 {
+  grid-area: 4;
+}
+
+.spot5 {
+  grid-area: 5;
+}
+
+.hiddengrid {
+  grid-area: hiddengrid;
+}
+
+.picturerotate {
+  transform: rotate(90deg);
+}
+
+.pictureaffects {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    " 10 20 30 40 "
+    " 50 60 70 80 "
+    " . 90 . . "
+    " . . . . ";
+  grid-gap: 10px;
+}
+
+.img1 {
+  grid-area: 10;
+}
+
+.img2 {
+  grid-area: 20;
+}
+
+.img3 {
+  grid-area: 30;
+}
+
+.img4 {
+  grid-area: 40;
+}
+
+.img5 {
+  grid-area: 50;
+}
+
+.img6 {
+  grid-area: 60;
+}
+
+.img7 {
+  grid-area: 70;
+}
+
+.img8 {
+  grid-area: 80;
+}
+
+.img9 {
+  grid-area: 90;
+}
