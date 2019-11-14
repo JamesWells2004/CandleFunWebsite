@@ -161,7 +161,7 @@ footer h2 {
 
 .picturemain {
   width: 100vw;
-  height: 200vh;
+  height: 150vh;
 }
 
 .aboutme {
@@ -216,6 +216,7 @@ footer h2 {
 
 .hiddengrid {
   grid-area: hiddengrid;
+  display: none;
 }
 
 .picturerotate {
@@ -226,8 +227,9 @@ footer h2 {
   width: 100%;
   height: 100%;
   display: grid;
+  margin: auto;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 25% 25% 25% 25%;
   grid-template-areas:
     " 10 20 30 40 "
     " 50 60 70 80 "
