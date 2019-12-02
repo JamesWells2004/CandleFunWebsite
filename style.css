@@ -2,6 +2,11 @@
 @import url: ('https://fonts.googleapis.com/css?family=Caveat&display=swap');
 @import url: ('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
+index.html {
+  padding: 0;
+  margin: 0;
+}
+
 body {}
 
 h1 {
@@ -10,6 +15,11 @@ h1 {
 
 p {
   margin-left: 12.5%;
+}
+
+nav {
+  margin: 10px;
+  padding: 5px;
 }
 
 nav ul {
@@ -169,49 +179,30 @@ footer h2 {
   text-align: center;
 }
 
-.my-family1 {
+.my-family {
   width: 100%;
-  height: 20%;
+  height: 100%;
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 25% 25% 25%;
-  grid-template-areas:
-    " 1 2 3 ";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
-.my-family2 {
+.indexbody {
   width: 100vw;
-  height: 20vw;
+  height: 200vh;
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 25% 1fr 25% 1fr;
-  grid-template-areas:
-    "hiddengrid 4 hiddengrid 5 hiddengrid";
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px 100px 5% 100vh 5%;
 }
 
-.spot1 {
-  grid-area: 1;
-}
-
-.spot2 {
-  grid-area: 2;
-}
-
-.spot3 {
-  grid-area: 3;
-}
-
-.spot4 {
-  grid-area: 4;
-}
-
-.spot5 {
-  grid-area: 5;
-}
-
-.hiddengrid {
-  grid-area: hiddengrid;
-  display: none;
+.indexmain {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100%;
 }
 
 .picturerotate {
@@ -222,65 +213,19 @@ footer h2 {
   padding: 50px;
 }
 
-.pictureaffects {
-  width: 100vw;
-  height: 460vh;
+.images {
+  width: 100%;
+  height: 100%;
   display: grid;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  grid-template-areas:
-    "10 20 30 40"
-    "50 60 70 80"
-    "90 . . . ";
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 10px;
 }
 
-.picturemain img {
+.image {
   width: 100%;
 }
 
-.img1 {
-  grid-area: 10;
-}
-
-.img2 {
-  grid-area: 20;
-}
-
-.img3 {
-  grid-area: 30;
-}
-
-.img4 {
-  grid-area: 40;
-}
-
-.img5 {
-  grid-area: 50;
-}
-
-.img6 {
-  grid-area: 60;
-}
-
-.img7 {
-  grid-area: 70;
-}
-
-.img8 {
-  grid-area: 80;
-}
-
-.img9 {
-  grid-area: 90;
-}
-
-.color1 {
-  background: green;
-}
-
-.color2 {
-  background: blue;
+.imgstart {
+  grid-column-start: span 5;
 }
