@@ -202,7 +202,7 @@ footer h2 {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100%;
+  grid-template-rows: 1fr;
 }
 
 .picturerotate {
@@ -210,7 +210,7 @@ footer h2 {
 }
 
 .picturespaces {
-  padding: 25px;
+  padding: 40px;
 }
 
 .images {
@@ -222,10 +222,11 @@ footer h2 {
   grid-gap: 10px;
 }
 
-.image {
+.images img {
   width: 100%;
+  min-width: 100px;
 }
 
 .imgstart {
-  grid-column-start: span 5;
+  grid-column-start: span 4;
 }
