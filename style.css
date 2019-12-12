@@ -125,11 +125,11 @@ footer h2 {
 }
 
 .h2-1 {
-  margin-left: 15%;
+  /* margin-left: 15%; */
 }
 
 .h3-1 {
-  margin-left: 13%;
+  /* margin-left: 13%; */
 }
 
 .aboutsizestyle {
@@ -236,6 +236,10 @@ footer h2 {
   margin: auto;
 }
 
+.roundedness {
+  border-radius: 15px;
+}
+
 .images {
   width: 80%;
   height: 100%;
@@ -257,10 +261,25 @@ footer h2 {
 /* help page start */
 .helpbody {
   width: 100vw;
-  height: 50vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 200px 1fr;
-  grid-template-rows: 10vh 20vh 20vh;
+  grid-template-rows: 1fr 20vh;
+  grid-template-areas:
+    "header main"
+    "footer footer";
+}
+
+.helpbody header {
+  grid-area: header;
+}
+
+.helpbody main {
+  grid-area: main;
+}
+
+.helpbody footer {
+  grid-area: footer;
 }
 
 /* help page end */
