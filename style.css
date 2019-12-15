@@ -307,7 +307,7 @@ footer h2 {
 @media screen and (max-width: 600px) {
   .indexbody {
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh 1fr 20vh;
+    grid-template-rows: 25vh 1fr 20vh;
   }
 
   nav ul {
@@ -354,7 +354,7 @@ footer h2 {
 @media screen and (max-width: 600px) {
   .purchasebody {
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh 1fr 10vh;
+    grid-template-rows: 25vh 1fr 10vh;
   }
 
   nav ul {
@@ -369,7 +369,7 @@ footer h2 {
 @media screen and (max-width: 600px) {
   .aboutbody {
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh 1fr 10vh;
+    grid-template-rows: 25vh 1fr 10vh;
   }
 
   nav ul {
