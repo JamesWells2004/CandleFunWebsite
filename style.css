@@ -322,7 +322,7 @@ footer h2 {
 /* index page media end */
 @media screen and (max-width: 600px) {
   .helpbody {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: 40vh 1fr 10vh;
     grid-template-areas: 
     "header"
