@@ -324,7 +324,23 @@ footer h2 {
   .helpbody {
     grid-template-columns: 1fr;
     grid-template-rows: 40vh 1fr 10vh;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
   }
+  
+  .helpbody header {
+  grid-area: header;
+}
+
+.helpbody main {
+  grid-area: main;
+}
+
+.helpbody footer {
+  grid-area: footer;
+}
 
   nav ul {
     flex-direction: column;
